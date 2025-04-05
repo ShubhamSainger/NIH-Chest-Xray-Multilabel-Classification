@@ -1,0 +1,5 @@
+pandas
+tf-nightly
+numpy
+python-multipart  #Used for data transfer using some API
+opencv-python-headless
