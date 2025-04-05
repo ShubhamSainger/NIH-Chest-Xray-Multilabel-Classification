@@ -1,0 +1,16 @@
+kind : Service
+apiVersion : v1
+
+metadata:
+  name : chest-service
+  namespace : chest-pods
+spec:
+  selector : 
+    app : x-ray
+
+  ports:
+    - port : 80
+      nodePort : 30300
+      targetPort : 80
+
+  type: NodePort

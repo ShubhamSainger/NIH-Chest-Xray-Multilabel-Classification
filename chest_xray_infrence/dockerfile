@@ -1,0 +1,12 @@
+FROM python:3.9
+
+WORKDIR /app
+
+COPY ./requirements.txt /app/requirements.txt
+
+RUN pip install -r /app/requirements.txt --no-cache-dir
+
+COPY ./fast_api_inference /app/fast_api_inference
+
+CMD ["fastapi", "run", "fast_api_inference/main.py", "--port", "80"]
+
