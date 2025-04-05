@@ -1,0 +1,5 @@
+tensorflow-cpu
+fastapi[standard]
+python-multipart  #Used for data transfer using some API
+opencv-python-headless
+Pillow

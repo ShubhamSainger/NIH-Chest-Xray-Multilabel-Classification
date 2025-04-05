@@ -1,0 +1,22 @@
+apiVersion : apps/v1
+kind : Deployment
+metadata:
+  name : chest-xray
+  namespace : chest-pods
+spec:
+  replicas : 1
+  selector :
+    matchLabels: 
+      app : x-ray
+  template:
+    metadata:
+      labels:
+        app : x-ray
+
+    spec:
+      
+      containers:
+        - name : x-ray-pod
+          image : shubhamsainger/chest-xray-model
+
+
