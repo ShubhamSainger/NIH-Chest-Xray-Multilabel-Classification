@@ -62,7 +62,7 @@ Feel free to contribute! Open an issue or create a pull request if you'd like to
 
 For any queries, reach out via:
 
-- 🔗 LinkedIn: [Shubham Singh Sainger](https://linkedin.com/in/shubham-singh-267214192)
+- 🔗 LinkedIn: [Shubham Singh Sainger](https://www.linkedin.com/in/shubham-sainger/)
 - 📧 Email: [shubhamsainger97@gmail.com](mailto\:shubhamsainger97@gmail.com)
 
 ---
