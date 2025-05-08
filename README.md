@@ -1,4 +1,4 @@
-# NIH Chest X-ray 14 - Multi-Label Classification
+# Weakly Supervised Learning and Classification on NIH Chest X-Ray-14 Dataset 
 
 ## 📌 Project Overview
 
